@@ -5,7 +5,7 @@ import cors from "cors";
 
 const app = express();
 app.use(cors());
-const port = 3001;
+process.env.PORT
 
 // Configure Cloudinary with your credentials
 cloudinary.config({
